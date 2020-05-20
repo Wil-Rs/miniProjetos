@@ -3,6 +3,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	background-color: black;
+	flex-direction: column;
 }
 
 #principal {
@@ -38,6 +39,14 @@ p {
 
 footer {
 	position: absolute;
-	top: 350px;
+	top: 80%;
+	text-shadow: 0 2px red;
+}
+
+header {
+	color: white;
+	font-size: 28px;
+	text-shadow: 0 2px red;
+	text-align: center;
 }
 
