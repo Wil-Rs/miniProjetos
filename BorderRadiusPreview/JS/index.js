@@ -11,6 +11,7 @@ valores[0] = document.querySelector('#v').onkeyup = () => {
 	divCss.style.borderBottomLeftRadius = `${ valores[2].value }px`
 	divCss.style.borderBottomRightRadius = `${ valores[3].value }px`
 	if (checkCss.checked){
+		divCss.innerHTML = ''
 		divCss.innerHTML += `${valores[0].value} &space`
 	}
 }
